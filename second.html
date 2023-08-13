@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css">
+  </style>
+</head>
+<body class="container-lg bg-secondary">
+  <script src="node_modules/jquery/dist/jquery.js"></script>
+  <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <a class="navbar-brand" href="#">HWFWM</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+  
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Other
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item" href="second.html">Volumes</a>
+          </div>
+        </li>
+      
+      </ul>
+    </div>
+  </nav>
+
+<div class="table-responsive">
+  <table class="table table-dark table-striped table align-bottom text-white-50" style="margin-top: 30px;">
+    <thead>
+      <tr>
+        <th scope="col">Volume</th>
+        <th scope="col">Description</th>
+        <th scope="col">Link</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Book One</td>
+        <td>It's not easy making the career jump from office-supplies-store middle manager to heroic interdimensional adventurer. At least, Jason tries to be heroic, but it's hard to be good when all your powers are evil.
+          He'll face off against cannibals, cultists, wizards, monsters...and that's just on the first day. He's going to need courage, he's going to need wit, and he's going to need some magic powers of his own. But first, he's going to need pants.</td>
+        <td><a href="https://www.amazon.com/He-Who-Fights-Monsters-Adventure-ebook/dp/B08WCT9W26" class="text-reset">Link to Book One</a></td>
+      </tr>
+      <tr class="text-white-50">
+        <td>Book Two</td>
+        <td>Now, a contest draws young elites to the city of Greenstone, competing for a grand prize. Jason must gather a band of companions if he is to stand a chance against the best the world has to offer.
+
+          While the young adventurers are caught up in competition, the city leaders deal with revelations of betrayal as a vast and terrible enemy is revealed. Although Jason seems uninvolved, he has unknowingly crossed the enemy's path before. Friends and foes made along the way will lead him to cross it again as inevitable conflict looms.</td>
+        <td class="text-white-50">
+          <a href="https://www.amazon.com/dp/B08XVT2FKW/ref=mes-dp?_encoding=UTF8&pd_rd_w=qQWnd&content-id=amzn1.sym.07f68587-1ea8-46cf-8c0c-8374d8d96b4a&pf_rd_p=07f68587-1ea8-46cf-8c0c-8374d8d96b4a&pf_rd_r=7QNGW3NAM66XAW9D8XNK&pd_rd_wg=bt4cN&pd_rd_r=8bd7edde-ad94-457d-8b31-c4b5bb672f6b" class="text-reset">Link to Book Two</a>
+        </td>
+      </tr>
+      <tr class="text-white-50">
+        <td>Book Three</td>
+        <td>Riding high on success, he and his team are looking to the future, preparing themselves for the challenges to come. Nothing, however, could prepare him for the lessons his enemies have to teach. When magic is involved, the stakes can be even greater than life and death.
+
+          While Jason's personal enemies make plans, the greater foes plaguing his new home have been pushed to the brink. With one powerful card left to play, they are on a collision course with Jason and his team. With no one to help and more than their lives on the line, Jason and his companions must fight with more monsters than ever in the race to grow stronger. With an invincible enemy already anticipating them, they will learn that sometimes winning the battle is more important than surviving it.</td>
+        <td>
+          <a href="https://www.amazon.com/dp/B09443F69P/ref=mes-dp?_encoding=UTF8&pd_rd_w=nOHXt&content-id=amzn1.sym.07f68587-1ea8-46cf-8c0c-8374d8d96b4a&pf_rd_p=07f68587-1ea8-46cf-8c0c-8374d8d96b4a&pf_rd_r=9GXY4P2KQD9K6ZXV6E8A&pd_rd_wg=axDHJ&pd_rd_r=217bed8d-1577-4135-8af2-af9497008c5f" class="text-reset">
+            Link to Book Three
+          </a>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+
+
+<form class="container-sm row row-cols-lg-auto g-3 align-items-center">
+  <div class="col-4">
+    <label class="visually-hidden" for="inlineFormInputGroupUsername">Username</label>
+    <div class="input-group">
+      <div class="input-group-text">@</div>
+      <input type="text" class="form-control" id="inlineFormInputGroupUsername" placeholder="Username">
+    </div>
+  </div>
+
+  <div class="col-12">
+    <label class="visually-hidden" for="inlineFormSelectPref">Preference</label>
+    <select class="form-select" id="inlineFormSelectPref">
+      <option selected>Choose...</option>
+      <option value="1">Interested</option>
+      <option value="2">Not Interested</option>
+      <option value="3">Need More Info</option>
+    </select>
+  </div>
+
+  <div class="col-12">
+    <button type="submit" class="btn btn-primary">Submit</button>
+  </div>
+</form>
+
+
+
+
+
+
+
+</body>
+</html>
